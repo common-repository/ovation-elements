@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+
+.ova_elems_page_select-template div#wpcontent {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ova_elems_page_select-template  .wrap{
+    margin: 0px;
+}
+.container-custom {
+    max-width: 1360px;
+    margin: 0px auto;
+}
+
+
+
+/* select template page  */
+
+.heading-container h1 {
+    font: normal normal 600 26px / 33px Outfit;
+    letter-spacing: 0px;
+    color: #000000;
+}
+h5.card-title {
+    font: normal normal 600 26px / 33px Outfit;
+}
+a.btn.btn-primary {
+    font: 18px / 23px Outfit;
+    font-weight: 500;
+    background: #5E2CED;
+    padding: 9px 25px;
+    border: none;
+}
+.heading-container {
+    /* border-bottom: 2px solid #7c7c7c; */
+    margin-bottom: 30px;
+    padding: 30px 0px 10px;
+}
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-container .container-custom {
+    margin: 0px;
+}
+/* select template page  */
+
+
+/* slider editor  */
+
+/* button.upload_image_button {
+    width: 127px;
+    height: 68px;
+    color: #0000 !important;
+} */
+.slide-container,.static-container{
+    background: #F2F2F2;
+    padding: 30px 35px !important;
+    border-radius: 20px !important;
+}
+
+.form-group label {
+    font: normal normal 600 18px / 23px Outfit;
+    letter-spacing: 0px;
+    color: #000000;
+}
+button.upload_image_button {
+    color: #00000033 !important;
+    font: normal normal 600 12px / 15px Outfit !important;
+}
+
+button.upload_image_button{
+    height: 68px;
+    border: 0px;
+    width: 127px;.form-group.half {
+        width: 50%;
+    }
+}
+.form-group input {
+    height: 44px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: none;
+}
+
+button.remove_slide_button {
+    background-color: #FF2C2C !important;
+    padding: 11px 39px;
+    border: 6px !important;
+}
+button#add_slide_button{
+    background-color: #2BBC3E !important;
+    padding: 11px 39px;
+    border: 6px !important;
+}
+button.btn.btn-primary{
+    padding: 11px 39px;
+    border: 6px !important;
+}
+.slider-from-outer {
+    position: relative;
+}
+.slider-from-outer {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.static-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+}
+.form-group {
+    width: 100%;
+}
+.form-group.mini {
+    width: max-content;
+}
+.form-group.half {
+    width: 49%;
+}.slide-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+    justify-content: space-between;
+}
+.upload_image_button {
+    border: 1px solid #0000 !important;
+    background: #fff !important;
+}
+.editor-heading {
+    font: normal normal 600 24px / 30px Outfit !important;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 30px 0px !important;
+}
+.slider-form-heading{
+    font: normal normal 600 20px / 25px Outfit;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 20px 0px;
+}.form-group.d-flex.gap-3 {
+    gap: 10px;
+}
+
+/* admin notice css start */
+.notice.is-dismissible.ova-elems {
+    padding:0 !important;
+    border: 0 !important;
+}
+.ova-elems-notice-banner-wrap {
+    display: grid;
+    grid-template-columns: 220px 3fr 1fr 1fr;
+    gap: 10px;
+}
+.ova-elems-notice-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+.ova-elems-main-head {
+    font:900 50px / 50px Outfit !important;
+    color: #2D1DB3;
+    padding:0;
+}
+.ova-elems-sub-head {
+    font:400 30px / 30px Outfit;
+    color: #2D1DB3;
+    margin: 0;
+}
+.ova-elems-notice-btn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: max-content;
+}
+.ova-elems-buy-btn {
+    background: #2D1DB3;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.notice-left-img img {
+    height: 100%;
+}
+.ova-elems-buy-btn:hover, .ova-elems-buy-btn:active {
+    color: #fff !important;
+}
+/* admin notice css end */
+
+
+/* newly add */
+#ovs-edit-page .template-edit-img {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  #ovs-edit-page .ovs-edit-template-img {
+    width: fit-content;
+    margin: auto;
+    background: #2084ee;
+    border-radius: 6px;
+  }
+  #ovs-edit-page .template-edit-img h2 {
+    padding: 20px 0px;
+    font: 600 20px/22px Outfit;
+    color: #fff;
+  }
+  #ovs-edit-page .ovs-edit-template-img img {
+    width: 100%;
+    height: 100%;
+  }
+  #ovs-edit-page .ovs-edit-template-img img {
+    width: 350px;
+    margin: auto;
+  }
+
+  .ovs-edit-template-img {
+    background: aquamarine;
+  }

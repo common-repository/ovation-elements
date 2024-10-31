@@ -1,0 +1,31 @@
+.oe-slider-main-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-main-image {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.slider-main-image.active {
+    display: block;
+}
+
+.oe-slider-controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.oe-slider-controls a {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
